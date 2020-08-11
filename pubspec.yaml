@@ -1,0 +1,10 @@
+name: package_boilerplate
+version: 0.1.0
+description: Dart Package Boilerplate
+homepage: https://github.com/vaetas/dart_package_boilerplate
+
+environment:
+  sdk: '>=2.8.0 <3.0.0'
+
+dependencies:
+  pedantic: ^1.9.2
