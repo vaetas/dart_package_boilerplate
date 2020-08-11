@@ -17,3 +17,5 @@ flutter create --template=package name
 3. Change your name in `LICENSE`.
 
 4. Put correct info into `CHANGELOG.md`.
+
+5. Create `lib` folder with implementation files. `lib` folder should contain single Dart file with same name as package and `src` folder with other files.
