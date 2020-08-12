@@ -1,1 +1,19 @@
 include: package:pedantic/analysis_options.yaml
+
+analyzer:
+  exclude: [build/**, lib/**.freezed.dart, lib/**.g.dart]
+
+linter:
+  rules:
+    - prefer_final_locals
+    - comment_references
+    - prefer_void_to_null
+    - prefer_const_constructors
+    - sort_constructors_first
+    - sort_unnamed_constructors_first
+    - sort_child_properties_last
+    - unnecessary_await_in_return
+    - unnecessary_lambdas
+    - unnecessary_string_interpolations
+    - use_to_and_as_if_applicable
+    - sort_pub_dependencies
