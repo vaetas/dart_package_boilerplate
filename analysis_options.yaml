@@ -17,3 +17,4 @@ linter:
     - unnecessary_string_interpolations
     - use_to_and_as_if_applicable
     - sort_pub_dependencies
+    - use_function_type_syntax_for_parameters
