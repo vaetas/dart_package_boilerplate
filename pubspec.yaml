@@ -4,9 +4,7 @@ description: Dart Package Boilerplate
 homepage: https://github.com/vaetas/dart_package_boilerplate
 
 environment:
-  sdk: '>=2.8.0 <3.0.0'
+  sdk: '>=2.12.0 <3.0.0'
 
 dev_dependencies:
   pedantic: ^1.9.2
-  analysis_options:
-    git: https://github.com/vaetas/analysis_options.git

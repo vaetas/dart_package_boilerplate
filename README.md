@@ -1,8 +1,8 @@
 # Dart Lang Package Boilerplate
 
-This package includes basic `pubspec.yaml` configuration, required folders and strict linting using `pedantic`.
+This package includes basic `pubspec.yaml` configuration file, required folders, and strict linting using `pedantic` package and my custom lints.
 
-This boilerplate if for pure Dart packages without dependency on Flutter. If you want to create Flutter package use following command.
+This boilerplate is for pure Dart packages without dependency on Flutter. If you want to create Flutter package use following command.
 
 ```
 flutter create --template=package name
@@ -12,10 +12,10 @@ flutter create --template=package name
 
 1. Change `name`, `description` and `homepage` in `pubspec.yaml`.
 
-2. Change package dependency name in `example/pubspec.yaml` according to main package name.
+2. Change package dependency name in the `example/pubspec.yaml` according to your package name.
 
-3. Change your name in `LICENSE`.
+3. Change your name in the `LICENSE` file.
 
-4. Put correct info into `CHANGELOG.md`.
+4. Put correct info into the `CHANGELOG.md` file.
 
-5. Create `lib` folder with implementation files. `lib` folder should contain single Dart file with same name as package and `src` folder with other files.
+5. Create `lib` folder with implementation files. `lib` folder should contain a single Dart file with same name as your package and a `src` folder with implementation files.
