@@ -7,7 +7,7 @@ environment:
 
 dependencies:
   dart_package_boilerplate:
-    path: ../include: package:pedantic/analysis_options.yaml
+    path: ../
 
 analyzer:
   exclude:
